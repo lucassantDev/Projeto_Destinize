@@ -1,0 +1,383 @@
+@charset 'UTF-8';
+
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
+/* ICONE PERSON */
+
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
+/* ICONE PLAY */
+
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap ");
+/* FONTE PLUS JAKARTA SANS */
+
+
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-chubby/css/uicons-solid-chubby.css');
+/* ICONE LOCALIZAÇÃO ABAIXO DO MAPA */
+
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-straight/css/uicons-solid-straight.css');
+/* ICONE CORACAO ABAIXO DO MAPA */
+
+
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-straight/css/uicons-solid-straight.css');
+/* ICONE PESSOAS ABAIXO DO MAPA */
+*{
+    margin: 0;
+}
+
+span{
+    color: var(--Azul);
+}
+
+body{
+    font-family: 'Plus Jakarta Sans', Arial, Helvetica, sans-serif;
+}
+
+:root{
+    --Texto_escuro: #14183E;
+    --Azul: #4372EB;
+    --Cinza_claro: #9A9EA6;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+#logotipoInicial{
+    margin-left: -200px;
+}
+
+#iconeInicial{
+    /* border: 1px solid red; */
+    width: 50px;
+    height: 50px;
+    background-color: rgb(233, 228, 228);
+    font-size: 22px;
+    border-radius: 25px 25px;
+    color: var(--Azul);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ESTILO TÍTULO E IMAGEM DO VIAJANTE */
+
+#viajanteDestinize{
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid rgb(0, 0, 0); */
+    display: flex;
+    justify-content: center;
+}
+
+
+#textoViajante{
+    color: var(--Texto_escuro);
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 120px;
+    margin-top: 120px;
+    /* border: 1px solid black; */
+}
+
+#textoViajante p{
+    font-size: 16px;
+    margin-top: 15px;
+    font-weight: lighter;
+    color: var(--Cinza_claro);
+}
+
+#imgViajante{
+    background-image: url(IMAGEM/viajante.png);
+    background-size: cover;
+    margin-right: 20px;
+    width: 600px;
+    height: 600px;
+}
+/* FIM DO ESTILO TÍTULO E IMAGEM DO VIAJANTE */
+
+
+
+/* ESTILO BOTÃO E ÍCONE PLAY */
+
+#botao_icone{
+    /* border: 1px solid red; */
+    width: 500px;
+    height: 65px;
+    margin-left: 120px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+#botao_icone > #botao{
+    width: 220px;
+    height: 50px;
+    background-color: var(--Azul);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 10px 10px;
+    transition: 0.2s;
+    /* border: 1px solid black; */
+}
+
+#botao_icone > #botao:hover{
+    background-color: var(--Texto_escuro);
+    transition: 0.2s;
+}
+
+#botao_icone > #icone{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px 50px;
+    color: var(--Azul);
+    border: 1px solid var(--Azul);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 20px;
+    border: 1px solid var(--Azul);
+    transition: 0.2s;
+}
+
+#botao_icone > #icone:hover{
+    background-color: var(--Azul);
+    color: white;
+    transition: 0.2s;
+}
+
+#botao_icone > p{
+    color: var(--Cinza_claro);
+}
+
+/* FIM DO ESTILO BOTÃO E ÍCONE PLAY */
+
+/* ESTILO DE LOGOS */
+#logoTipo{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+/* FIM DO ESTILO DE LOGOS */
+
+
+/* ESTILO DAS IMAGENS */
+.medidas_imagensDestino{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 600px;
+}
+
+#textos_imagensDestino{
+    margin-left: 170px;
+    font-size: 15px;
+}
+
+#textos_imagensDestino > h3, h1{
+    margin-bottom: 10px;
+}
+
+#imagens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.localizacaoDestinize{
+    background-color: rgba(255, 255, 255, 0.733);
+    color: var(--Texto_escuro);
+    width: 120px;
+    height: 90px;
+    border-radius: 0px 20px 0px 0px;
+    padding: 3px;
+}
+
+.localizacaoDestinize > h4, p{
+    margin-left: 10px;
+}
+
+
+#img01, #img02, #img03, #img04{
+    width: 300px;
+    height: 430px;
+    border-radius: 20px 20px;
+    /* border: 1px solid red; */
+    
+}
+
+#img01{
+    background-image: url(IMAGEM/destino2.png);
+    background-size: cover;
+}
+
+#img02{
+    background-image: url(IMAGEM/destino1.png);
+    background-size: cover;
+}
+
+#img03{
+    background-image: url(IMAGEM/destino5.png);
+    background-size: cover;
+}
+
+#img04{
+    background-image: url(IMAGEM/destino4.png);
+    background-size: cover;
+}
+
+/* FIM DO ESTILO DAS IMAGENS */
+
+
+/* ESTILO CAIXA RESERVA */
+.medidas_imagensDestino{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 700px;
+}
+
+#caixaReserva{
+    display: flex;
+    /* border: 1px solid red; */
+}
+
+#todoTexto_caixaReserva{
+    /* border: 1px solid red; */
+}
+
+#textos_caixaReserva{
+    margin-left: 170px;
+    font-size: 25px;
+}
+
+#textos_caixaReserva > h3, h1{
+    margin-bottom: 10px;
+}
+
+
+.iconeTexto_caixaReserva{
+    margin-top: 40px;
+    margin-left: 170px;
+    display: flex;
+    gap: 15px;
+}
+
+
+.caixaIcone{
+    width: 50px;
+    height: 50px;
+    border-radius: 15px 15px;
+    background-color: rgba(190, 190, 71, 0.87);
+    /* border: 1px solid red; */
+}
+
+.caixaTexto{
+    /* border: 1px solid red; */
+    gap: 10px;
+
+}
+
+#caixa_imagemReserva{
+    width: 750px;
+    height: 698px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+}
+
+#imagemReserva{
+    width: 450px;
+    height: 500px;
+    background-image: url(IMAGEM/reserva.png);
+    background-size: cover;
+    /* border: 1px solid red; */
+}
+
+/* FIM ESTILO CAIXA RESERVA */
+
+
+/* ESTILO MAPADESTINIZE */
+
+/* .medidas_imagensDestino{
+    border: 1px solid red;
+    width: 100%;
+    height: 700px;
+} */
+
+/* acima está a classe de medidas, que faz com que a div criada tenha as mesmas medidas da div anterior */
+
+#textos_mapaDestinize{
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+#textos_mapaDestinize > h1{
+    font-size: 55px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#imagem_mapaDestinze{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 600px;
+}
+
+#imagem_mapa{
+    margin-top: 35px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* FIM ESTILO MAPADESTINIZE */
+
+/* ESTILO PARTE DO ICONE ABAIXO DO MAPA */  
+
+#icone_mapaDestinize{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.fundo_Icone{
+    background-color: rgb(233, 228, 228);
+    width: 50px;
+    height: 50px;
+    border-radius: 25px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.fundo_Icone i{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+#texto_icone_mapaDestinize  p {
+    margin-bottom: 5px;
+}
+
+#icone_coracao, #icone_pessoas, #icone_localizacao{
+    display: flex;
+}
+
+/* FIM ESTILO PARTE DO ICONE ABAIXO DO MAPA */
