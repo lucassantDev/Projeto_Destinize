@@ -3,11 +3,21 @@
 @import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
 /* ICONE PERSON */
 
-@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-bold-rounded/css/uicons-bold-rounded.css');
 /* ICONE PLAY */
 
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap ");
 /* FONTE PLUS JAKARTA SANS */
+
+
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
+/* ICONE LUPA CAIXA RESERVA */
+
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-chubby/css/uicons-regular-chubby.css');
+/* ICONE LAPÍS CAIXA RESERVA */
+
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-straight/css/uicons-regular-straight.css');
+/* ICONE CORAÇÃO CAIXA RESERVA */
 
 
 @import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-chubby/css/uicons-solid-chubby.css');
@@ -16,9 +26,19 @@
 @import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-straight/css/uicons-solid-straight.css');
 /* ICONE CORACAO ABAIXO DO MAPA */
 
-
 @import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-straight/css/uicons-solid-straight.css');
 /* ICONE PESSOAS ABAIXO DO MAPA */
+
+
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
+/* ICONE TELEFONE RODAPÉ */
+
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
+/* ICONE CAIXA DE E-MAIL RODAPÉ */
+
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
+/* ICONE LOCALIZAÇÃO RODAPÉ */
+
 *{
     margin: 0;
 }
@@ -44,18 +64,26 @@ header{
     justify-content: center;
     align-items: center;
     justify-content: space-around;
+    border-bottom: 1px solid rgb(240, 235, 235);
     
 }
 
 #logotipoInicial{
-    margin-left: -200px;
+    margin-left: -170px;
+}
+
+#caixa_iconeInicial{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    margin-rigth: -190px;
 }
 
 #iconeInicial{
     /* border: 1px solid red; */
     width: 50px;
     height: 50px;
-    background-color: rgb(233, 228, 228);
+    background-color: rgb(215, 223, 216);
     font-size: 22px;
     border-radius: 25px 25px;
     color: var(--Azul);
@@ -72,8 +100,8 @@ header{
     /* border: 1px solid rgb(0, 0, 0); */
     display: flex;
     justify-content: center;
+    
 }
-
 
 #textoViajante{
     color: var(--Texto_escuro);
@@ -86,7 +114,7 @@ header{
 
 #textoViajante p{
     font-size: 16px;
-    margin-top: 15px;
+    margin-top: 12px;
     font-weight: lighter;
     color: var(--Cinza_claro);
 }
@@ -94,7 +122,6 @@ header{
 #imgViajante{
     background-image: url(IMAGEM/viajante.png);
     background-size: cover;
-    margin-right: 20px;
     width: 600px;
     height: 600px;
 }
@@ -108,7 +135,7 @@ header{
     /* border: 1px solid red; */
     width: 500px;
     height: 65px;
-    margin-left: 120px;
+    margin-left: 180px;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -135,9 +162,9 @@ header{
 }
 
 #botao_icone > #icone{
-    width: 40px;
-    height: 40px;
-    border-radius: 50px 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px 25px;
     color: var(--Azul);
     border: 1px solid var(--Azul);
     justify-content: center;
@@ -200,9 +227,10 @@ header{
     background-color: rgba(255, 255, 255, 0.733);
     color: var(--Texto_escuro);
     width: 120px;
-    height: 90px;
+    height: 88px;
     border-radius: 0px 20px 0px 0px;
     padding: 3px;
+    margin-top: 300px;
 }
 
 .localizacaoDestinize > h4, p{
@@ -211,8 +239,8 @@ header{
 
 
 #img01, #img02, #img03, #img04{
-    width: 300px;
-    height: 430px;
+    width: 250px;
+    height: 380px;
     border-radius: 20px 20px;
     /* border: 1px solid red; */
     
@@ -245,7 +273,7 @@ header{
 .medidas_imagensDestino{
     /* border: 1px solid red; */
     width: 100%;
-    height: 700px;
+    height: 600px;
 }
 
 #caixaReserva{
@@ -281,6 +309,10 @@ header{
     border-radius: 15px 15px;
     background-color: rgba(190, 190, 71, 0.87);
     /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
 }
 
 .caixaTexto{
@@ -298,7 +330,7 @@ header{
 }
 
 #imagemReserva{
-    width: 450px;
+    width: 500px;
     height: 500px;
     background-image: url(IMAGEM/reserva.png);
     background-size: cover;
@@ -313,7 +345,7 @@ header{
 /* .medidas_imagensDestino{
     border: 1px solid red;
     width: 100%;
-    height: 700px;
+    height: 600px;
 } */
 
 /* acima está a classe de medidas, que faz com que a div criada tenha as mesmas medidas da div anterior */
@@ -381,3 +413,216 @@ header{
 }
 
 /* FIM ESTILO PARTE DO ICONE ABAIXO DO MAPA */
+
+/* ESTILO CAIXA GALERIA */
+
+.medidas_imagensDestino{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 700px;
+}
+
+#texto_caixaGaleria{
+    margin-left: 120px;
+}
+
+#duasImagens_caixaGaleria{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 120px;
+}
+
+#imagem_Montebromo{
+    /* border: 1px solid red; */
+    width: 300px;
+    height: 410px;
+    border-radius: 20px 20px;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.151);
+}
+
+#Montebromo{
+    width: 100%;
+    height: 200px;
+    /* border: 1px solid red; */
+    border-radius: 20px 20px 0px 0px;
+    background-image: url(IMAGEM/destino4.png);
+    background-size: cover;
+}
+
+
+#p1, #p2, #p3, #p4{
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+#p1{
+    margin-top: 15px;
+    color: var(--Cinza_claro);
+}
+
+#p3{
+    color: var(--Cinza_claro);
+}
+
+
+#imagem_Video{
+    width: 910px;
+    height: 450px;
+    /* border: 1px solid red; */
+    background-image: url(IMAGEM/video.png);
+    background-size: cover;
+}
+
+/* FIM ESTILO CAIXA GALERIA */
+
+
+/* ESTILO CAIXA GALERIA 02 */
+
+#caixaGaleria_02{
+    width: 100%;
+    height: 400px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    
+}
+
+#imagem_caixaGaleria_02{
+    width: 85%;
+    height: 200px;
+    background-image: url(IMAGEM/destino5.png);
+    background-size: cover;
+    /* border: 1px solid red; */
+    border-radius: 10px 10px ;
+    display: flex;
+    justify-content: center;
+
+}
+
+.texto_imagem_caixaGaleria_02{
+    margin-left: 50px;
+    margin-top: 50px;
+    color: white;
+    
+}
+
+.texto_imagem_caixaGaleria_02 p{
+    margin-top: 10px;
+    margin-left: -0px;
+}
+
+/* FIM ESTILO CAIXA GALERIA 02 */
+
+
+/* ESTILO DEPOIMENTO */
+
+#tituloDepoimentos{
+    text-align: center;
+}
+
+#tituloDepoimentos > h1{
+    font-size: 55px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#tituloDepoimentos_imagens{
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.medida_tituloDepoimentos_imagens{
+    width: 400px;
+    height: 400px;
+    border-radius: 5px 5px;
+    border: 2px solid rgb(233, 228, 228);
+}
+
+.medida_tituloDepoimentos_imagens p{
+    text-align: center;
+    color: var(--Cinza_claro);
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.medida_tituloDepoimentos_imagens h4{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.imagem_tituloDepoimentos{
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 123px;
+    border-radius: 75px 75px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+}
+
+.nota_Depoimento{
+    color: rgb(189, 141, 12);
+    font-size: 30px;
+    margin-left: 115px;
+}
+
+#ultimaEstrela{
+    color: rgb(233, 228, 228);
+}
+
+/* FIM ESTILO DEPOIMENTO */
+
+
+/* ESTILO RODAPÉ */
+
+#rodape{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 400px;
+}
+
+#logomarcaRodape{
+    margin-left: 120px;
+    margin-top: 60px;
+}
+
+#textoRodape{
+    margin-left: 112px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: var(--Cinza_claro);
+}
+
+#iconeRodape{
+    /* border: 1px solid red; */
+    display: flex;
+    margin-left: 120px;
+    width: 300px;
+    color: var(--Cinza_claro);
+    display: flex;
+}
+
+#icone_fim{
+    font-size: 17px;
+    gap: 6px;
+}
+
+footer{
+    color: var(--Cinza_claro);
+    text-align: center;
+    height: 400px;
+    font-size: 14px;
+}
+
+/* FIM ESTILO RODAPÉ */
